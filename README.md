@@ -1,48 +1,43 @@
-# Proyecto de Alimentación y Bienestar
+# BodyRun - Tu meta en segundos
 
-## Descripción del Proyecto
-Este proyecto es una aplicación web dedicada al bienestar y la nutrición, ofreciendo herramientas para el cálculo de IMC, planes de déficit calórico, superávit calórico y mantenimiento de peso. La aplicación está diseñada siguiendo los estándares IEEE para garantizar calidad, mantenibilidad y escalabilidad.
+## Descripción
+BodyRun es una aplicación web diseñada para ayudar a los usuarios a alcanzar sus objetivos de salud y bienestar. Ofrece herramientas para calcular el IMC, déficit calórico, superávit calórico y planes de mantenimiento de peso.
 
-## Estructura del Proyecto
-```
-├── frontend/
-│   ├── assets/
-│   │   ├── css/         # Estilos y animaciones
-│   │   ├── img/         # Imágenes y recursos visuales
-│   │   ├── js/          # Scripts y lógica del cliente
-│   │   └── font/        # Fuentes y recursos tipográficos
-│   └── index.html       # Página principal
-├── includes/            # Componentes reutilizables
-└── docs/               # Documentación adicional
-```
-
-## Características Principales
+## Características
 - Calculadora de IMC
-- Planificador de déficit calórico
 - Calculadora de superávit calórico
-- Plan de mantenimiento de peso
-- Planes alimenticios personalizados
-- Interfaz responsiva y amigable
+- Calculadora de déficit calórico
+- Planes de mantenimiento de peso
+- Dietas personalizadas
 
 ## Tecnologías Utilizadas
 - HTML5
-- CSS3 (Bootstrap Framework)
-- JavaScript (jQuery)
-- Base de datos de alimentos personalizada
+- CSS3
+- JavaScript
+- Bootstrap 4.5.2
+- jQuery 3.6.0
 
-## Instalación y Uso
-1. Clona este repositorio
-2. Abre `index.html` en tu navegador web
-3. No se requieren dependencias adicionales para el funcionamiento básico
+## Estructura del Proyecto
+```
+alimentacion/
+├── css/              # Estilos CSS
+├── font/             # Fuentes personalizadas
+├── img/              # Imágenes del proyecto
+├── js/               # Scripts de JavaScript
+├── includes/         # Componentes reutilizables
+├── index.html        # Página principal
+├── .gitignore        # Archivos ignorados por Git
+└── README.md         # Documentación del proyecto
+```
 
-## Contribución
-Si deseas contribuir al proyecto:
-1. Haz un Fork del repositorio
-2. Crea una nueva rama para tus cambios
-3. Envía un Pull Request con tus mejoras
+## Instalación
+1. Clona el repositorio
+2. Abre index.html en tu navegador
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## Contacto
-Para más información o consultas sobre el proyecto, por favor contacta a través de las redes sociales o formulario de contacto en la aplicación.
+BodyRun - [Sitio Web](https://bodyrun.com)
+
+Desarrollado con ❤️ por el equipo de BodyRun
